@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "callback" : "node src/callback/challenge.js"
+    "callback" : "node src/callback/challenge.js",
+    "promise" : "node src/promise/index.js"
   },
   "repository": {
     "type": "git",
