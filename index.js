@@ -14,7 +14,7 @@ console.log(calc(6, 2, suma));
 function date(callback) {
     console.log(new Date);
     setTimeout(function () {
-        let date = new Date;
+        let date =p..sx >pp0pñx new Date;
         callback(date);
     },3000)
 }
