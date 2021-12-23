@@ -12,7 +12,7 @@ const fetchData = (url_api) => {
         // abrir una conexion con el metodo, la ruta y si es asincrono
         xhttp.open('GET', url_api, true);
         // validacion del llamado
-        xhttp.onreadystatechange = (() => {
+        xhttp.onreadystatechange = (() => {  
         // comparamos el 4 porque eso indica que se completo la peticion
         if(xhttp.readyState === 4){
             // verificamos que el status este en 200, 200 es que es correcto
